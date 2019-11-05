@@ -11,4 +11,8 @@ def read_fasta(filename):
     f.close()
     return seq
 
+if len(sys.argv) < 2:
+    print ("Need to privide filename")
+    exit(1)
+
 print(read_fasta(sys.argv[1]))
