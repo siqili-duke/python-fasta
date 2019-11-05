@@ -1,3 +1,6 @@
+
+import sys
+
 def read_fasta(filename):
     seq = ''
     f = open(filename)
@@ -8,5 +11,4 @@ def read_fasta(filename):
     f.close()
     return seq
 
-print(read_fasta('ae.fa'))
-
+print(read_fasta(sys.argv[1]))
