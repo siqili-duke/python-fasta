@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# coding: utf-8
+
 def read_fasta(filename):
     seq = ''
     f = open(filename)
