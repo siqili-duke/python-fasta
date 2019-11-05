@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-
 def read_fasta(filename):
     seq = ''
     f = open(filename)
